@@ -23,15 +23,15 @@ et ludique, le tout très simplement et surtout très rapidement!
 ## Crédits ##
 
 #####Cette application est développée par :
-- Maxime Lafarie - www.maximelafarie.com
+- Maxime Lafarie - http://maximelafarie.com/
 - Clement Halipre - http://soulsofgamers.livehost.fr/
 
 
 ## Utilisation ##
 
-Vous pouvez vous servir librement de cette application depuis le Repo GitHub, ou depuis apps.maximelafarie.com/lig
+Vous pouvez vous servir librement de cette application depuis le Repo GitHub, ou depuis http://apps.maximelafarie.com/lig
 
 #N'oubliez pas de mentionner les auteurs! ;)
 
 
-Copyright 2014 - Maxime Lafarie | www.maximelafarie.com & Clement Halipre | http://soulsofgamers.livehost.fr/
+Copyright 2014 - Maxime Lafarie | http://maximelafarie.com/ & Clement Halipre | http://soulsofgamers.livehost.fr/
