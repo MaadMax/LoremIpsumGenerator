@@ -5,6 +5,10 @@ body {
 	background: url(../img/bg.png);
 }
 
+.clear {
+	clear: both;
+}
+
 #logo {
 	margin: 0 auto;
 	text-align: center;
@@ -13,12 +17,13 @@ body {
 
 .part-body {
     background: none repeat scroll 0 0 #F8F8F8;
-    border-radius: 8px 8px 8px 8px; /* On arrondi les coins car sinon c'est pas joli-joli */
+    border-radius: 8px 8px 8px 8px;
     color: #4C4C4C;
-    line-height: 18px; /* Espacement entre les lignes du texte. Sinon trop collé et c'est caca */
+    line-height: 18px;
     margin: 20px auto;
-    padding: 20px 40px 20px; /* On définit les marges du texte dans le bloc histoire qu'il soit pas collé avec les bords du bloc */
-    width: 820px; /* On définit la largeur du bloc. En % pour que ça soit responsive mothafucka ! */
+    padding: 20px 40px 20px;
+    width: 820px;
+    overflow: hidden;
 }
 
 .lgn {
