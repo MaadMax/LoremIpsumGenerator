@@ -21,7 +21,7 @@ body {
     width: 820px; /* On définit la largeur du bloc. En % pour que ça soit responsive mothafucka ! */
 }
 
-#chb {
+.lgn {
 	display: inline-table;
 	margin-left: 30px;
 }

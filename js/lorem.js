@@ -32,17 +32,37 @@
 
      lorem.push("Mauris a venenatis metus. Sed quis dui vel ante dictum porta sed ut ipsum. Pellentesque fermentum at dui sit amet aliquet. Quisque ornare gravida lectus in feugiat. Curabitur posuere sollicitudin diam, vitae elementum quam semper at. Sed ultrices, orci ultricies feugiat pretium, magna enim imperdiet nulla, eget fringilla libero diam eget odio. Aliquam a mauris urna. Sed tempus orci eu nibh malesuada, sit amet eleifend nisl fermentum. Cras blandit egestas sagittis. Pellentesque pellentesque massa eget consectetur elementum.");
 
-     $("#textrender").html("");
-
-     if($('input[id=addP]').is(':checked')) {
+    $("#textrender").html("");
+    if($('input[id=addP]').is(':checked') && $('input[id=addC]').val()!='' ) { // Si la case est coché et que la classe est renseigné
+      for(var i=0; i<strUser; i++){
+        $("#textrender").append("&lt;p class=\""+$('input[id=addC]').val() +"\"&gt;\n"+lorem[i]+"\n&lt;/p&gt;\n \n");
+      }   
+    }
+    else if($('input[id=addP]').is(':checked') && $('input[id=addC]').val()=='' ) { // Si la case est coché et que la classe n'est pas renseigné 
       for(var i=0; i<strUser; i++){
         $("#textrender").append("&lt;p&gt;\n"+lorem[i]+"\n&lt;/p&gt;\n \n");
       }   
     }
-    else {
+    else { // Autres cas
       for(var i=0; i<strUser; i++){
         $("#textrender").append(lorem[i]+"\n \n");
       }
     }
   });
+  
+    $("#addP").change(function() {
+		if($('input[id=addP]').is(':checked'))
+		{
+			$('.InputText').show();
+		}
+		else
+		{
+			$('.InputText').hide();
+		}
+	});
+  
+	$('.InputText').hide();
 })(jQuery);
+
+
+
