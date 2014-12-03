@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background: url(http://apps.maximelafarie.com/lig/img/bg.png);
+	background: url(../img/bg.png);
 }
 
 #logo {
@@ -19,6 +19,11 @@ body {
     margin: 20px auto;
     padding: 20px 40px 20px; /* On définit les marges du texte dans le bloc histoire qu'il soit pas collé avec les bords du bloc */
     width: 820px; /* On définit la largeur du bloc. En % pour que ça soit responsive mothafucka ! */
+}
+
+#chb {
+	display: inline-table;
+	margin-left: 30px;
 }
 
 textarea {
